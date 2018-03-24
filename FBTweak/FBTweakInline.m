@@ -20,7 +20,7 @@
 #import <mach-o/dyld.h>
 #import <dlfcn.h>
 
-//#if FB_TWEAK_ENABLED
+#if FB_TWEAK_ENABLED
 
 extern NSString *_FBTweakIdentifier(fb_tweak_entry *entry)
 {
@@ -141,5 +141,5 @@ static FBTweak *_FBTweakCreateWithEntry(NSString *identifier, fb_tweak_entry *en
 
 @end
 
-//#endif
+#endif
 

@@ -9,10 +9,10 @@
 
 #ifndef FB_TWEAK_ENABLED
 
-#if DEBUG
+//#if DEBUG
 #define FB_TWEAK_ENABLED 1
-#else
-#define FB_TWEAK_ENABLED 0
-#endif
+//#else
+//#define FB_TWEAK_ENABLED 0
+//#endif
 
 #endif
