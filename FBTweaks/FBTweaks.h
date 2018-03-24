@@ -19,3 +19,7 @@ FOUNDATION_EXPORT const unsigned char FBTweaksVersionString[];
 
 #import <FBTweaks/FBTweak.h>
 #import <FBTweaks/FBTweakEnabled.h>
+#import <FBTweaks/FBTweakInline.h>
+#import <FBTweaks/FBTweakCollection.h>
+#import <FBTweaks/FBTweakCategory.h>
+#import <FBTweaks/FBTweakStore.h>
