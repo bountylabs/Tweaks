@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6250FA5B20660AB100FA476A"
-               BuildableName = "FBTweaks_tvOS.framework"
+               BuildableName = "FBTweaks.framework"
                BlueprintName = "FBTweaks-tvOS"
                ReferencedContainer = "container:FBTweak.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6250FA5B20660AB100FA476A"
-            BuildableName = "FBTweaks_tvOS.framework"
+            BuildableName = "FBTweaks.framework"
             BlueprintName = "FBTweaks-tvOS"
             ReferencedContainer = "container:FBTweak.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6250FA5B20660AB100FA476A"
-            BuildableName = "FBTweaks_tvOS.framework"
+            BuildableName = "FBTweaks.framework"
             BlueprintName = "FBTweaks-tvOS"
             ReferencedContainer = "container:FBTweak.xcodeproj">
          </BuildableReference>
