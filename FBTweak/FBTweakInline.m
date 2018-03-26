@@ -20,8 +20,6 @@
 #import <mach-o/dyld.h>
 #import <dlfcn.h>
 
-#if FB_TWEAK_ENABLED
-
 extern NSString *_FBTweakIdentifier(fb_tweak_entry *entry)
 {
   return [NSString stringWithFormat:@"FBTweak:%@-%@-%@", *entry->category, *entry->collection, *entry->name];
@@ -140,6 +138,4 @@ static FBTweak *_FBTweakCreateWithEntry(NSString *identifier, fb_tweak_entry *en
 }
 
 @end
-
-#endif
 

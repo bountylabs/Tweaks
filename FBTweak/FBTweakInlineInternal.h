@@ -14,15 +14,15 @@
 #import "FBTweakCollection.h"
 #import "_FBTweakBindObserver.h"
 
-#if !FB_TWEAK_ENABLED
-
-#define __FBTweakDefault(default, ...) default
-#define _FBTweakInline(category_, collection_, name_, ...) nil
-#define _FBTweakValue(category_, collection_, name_, ...) (__FBTweakDefault(__VA_ARGS__, _))
-#define _FBTweakBind(object_, property_, category_, collection_, name_, ...) (object_.property_ = __FBTweakDefault(__VA_ARGS__, _))
-#define _FBTweakAction(category_, collection_, name_, ...)
-
-#else
+//#if !FB_TWEAK_ENABLED
+//
+//#define __FBTweakDefault(default, ...) default
+//#define _FBTweakInline(category_, collection_, name_, ...) nil
+//#define _FBTweakValue(category_, collection_, name_, ...) (__FBTweakDefault(__VA_ARGS__, _))
+//#define _FBTweakBind(object_, property_, category_, collection_, name_, ...) (object_.property_ = __FBTweakDefault(__VA_ARGS__, _))
+//#define _FBTweakAction(category_, collection_, name_, ...)
+//
+//#else
 
 #ifdef __cplusplus
 extern "C" {
@@ -206,5 +206,5 @@ extern NSString *_FBTweakIdentifier(fb_tweak_entry *entry);
 }
 #endif
 
-#endif
+//#endif
 

@@ -7,12 +7,13 @@
  of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#ifndef FB_TWEAK_ENABLED
-
-//#if DEBUG
-#define FB_TWEAK_ENABLED 1
-//#else
-//#define FB_TWEAK_ENABLED 0
+//#ifndef FB_TWEAK_ENABLED
+//
+////#if DEBUG
+//#define FB_TWEAK_ENABLED 1
+////#else
+////#define FB_TWEAK_ENABLED 0
+////#endif
+//
 //#endif
 
-#endif
