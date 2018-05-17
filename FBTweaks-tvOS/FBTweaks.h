@@ -15,11 +15,10 @@ FOUNDATION_EXPORT double FBTweaksVersionNumber;
 FOUNDATION_EXPORT const unsigned char FBTweaksVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FBTweaks/PublicHeader.h>
-
-
 #import <FBTweaks/FBTweakEnabled.h>
-#import <FBTweaks/FBTweak.h>
 #import <FBTweaks/FBTweakInline.h>
+#import <FBTweaks/FBTweakInlineInternal.h>
+#import <FBTweaks/FBTweak.h>
 #import <FBTweaks/FBTweakCollection.h>
 #import <FBTweaks/FBTweakCategory.h>
 #import <FBTweaks/FBTweakStore.h>
